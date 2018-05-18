@@ -140,9 +140,9 @@ Next, you run `git branch -a` to see exactly what branches exist on this compani
 
 
 -
-* So, from here, you can see that your new collegues have made branches for
+* So, from here, you can see that your new colleagues have made branches for
     * `add`, `subtract`, and `multiply`.
-* Because you're implementing divide, you should make a `divide` branch.
+* Because you're implementing **divide**, you should make a `divide` branch.
 * To do this, you run:
     * `git branch divide`
         * create a branch named `divide`
@@ -153,12 +153,12 @@ Next, you run `git branch -a` to see exactly what branches exist on this compani
 
 
 -
-* Now, you have a local branch, but you want to cover your bases and tell Github to start tracking a remote version of it.
-* So you run:
+ Now you have a local branch, but you want to cover your bases and tell Github to start tracking a remote version of it.
+ So, you run:
     * `git push -u origin divide`
 
 -
-* Now, a `git branch -a` shows:
+ Now, a `git branch -a` shows:
 > 
   master<br/>
   \* divide
@@ -171,10 +171,10 @@ Next, you run `git branch -a` to see exactly what branches exist on this compani
   
   
 -
-* Now you're ready to start developing.
-* You modify a file called `Operations` and add your divide function.
-* You also modify `OperationsTest` and make unit tests for your new divide function.
-* You're ready to get everything up on the remote server, so you run:
+ Now you're ready to start developing.
+* Modify a file called `Operations` and add your **divide** function.
+* Also, modify `OperationsTest` and make unit tests for your new **divide** function.
+* To get everything up to the remote server, do the following:
     * `git add .`
     * `git commit -m "Added divide function and unit tests"`
     * `git push`
@@ -220,8 +220,9 @@ Next, you run `git branch -a` to see exactly what branches exist on this compani
 
 
 -
-* A merge conflict is what happens when you try to merge a file over another file that have both been changed.
-* Consider this scenario:
+ A merge conflict is what happens when you try to merge a changed file into another file that has been changed.
+
+ Consider the following scenario:
 
 
 
@@ -251,12 +252,12 @@ Some different changes
 ```
 
 -
-There are a bunch of different ways to handle a merge conflict.  The easiest one, however, is to use `git mergetool` and use a tool to handle it.  This is hard to describe doing because each machine might use a different tool.  So, my tips for merge conflicts are these:
+There are a various ways to handle a merge conflict.  The easiest one, however, is to use `git mergetool` and use a tool to handle it.  This is hard to describe doing because each machine might use a different tool.  So, suggested tips for merge conflicts are the following:
 
 -
-1. Commit early and commit often.  Your merge conflicts won't be all the large if you're constantly making small changes.
-2. Try and not work on the same files as other people.
-3. Be calm and Google things.  That's how most of us figured out how to fix merge conflicts.
+<p class="fragment fade-up">1. Commit early and commit often.  Your merge conflicts won't be all the large if you're constantly making small changes.</p>
+<p class="fragment fade-up">2. Try and not work on the same files as other people.</p>
+<p class="fragment fade-up">3. Be calm and Google things.  That's how most of us figured out how to fix merge conflicts.</p>
 
 -
 -
