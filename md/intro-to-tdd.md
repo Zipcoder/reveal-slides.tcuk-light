@@ -147,4 +147,4 @@ Single Concept per test
 
 -
 -
-<img src="/reveal-slides-light/img/bunnies/cute-bunnies-tongues-16.jpg" >
+<img src="/reveal-slides-light/img/bunnies/cute-rabbit-2.jpg" >
