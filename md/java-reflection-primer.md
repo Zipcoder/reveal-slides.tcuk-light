@@ -63,5 +63,5 @@ str.getClass.equals(Object.class) //false
 
 -
 
-<img src="/reveal-slides-light/img/bunnies/pairbunnies.jpg" >
+<img src="/tcuk-slides-light/img/bunnies/pairbunnies.jpg" >
 
