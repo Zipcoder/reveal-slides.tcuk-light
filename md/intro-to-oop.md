@@ -96,7 +96,7 @@ public class Person {
 
 -
 
-# Classes/Objects and the Instance/static difference
+## Classes/Objects and the Instance/static difference
 
 * if a **method** is declared **static**
   * you do not need to create an object to call it.
@@ -237,7 +237,7 @@ How can we model this?
 -
 -
 
-# Objects and Instance Variables
+## Objects and Instance Variables
 * The **new**  keyword is the magic word that tells the JVM to add a new object to the heap.
 * We used **new** back when we created Arrays. That's because an Array object is constructed from the Array **class**
 * We commonly construct **objects** with **new**
