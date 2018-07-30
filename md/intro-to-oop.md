@@ -97,15 +97,16 @@ public class Person {
 -
 
 ## Classes/Objects and the Instance/static difference
-
 * if a **method** is declared **static**
   * you do not need to create an object to call it.
   * e.g. Math.sin(x);
-
   * if it weren't you'd have to
 ```
 Math math = new Math(); x = math.sin(y);
 ```
+-
+
+## Classes/Objects and the Instance/static difference
 
 * if a **variable** is declared **static**
   * all objects of that class can use it.
