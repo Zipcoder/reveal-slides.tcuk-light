@@ -529,12 +529,12 @@ public class LogDemo {
 -
 ##Logging with IntelliJ
 -
-<img src="img/exceptions/logging_screenshot01.jpg'>
+<img src="img/exceptions/logging_screenshot01.jpg">
 -
-<img src="img/exceptions/logging_screenshot02.jpg'>
+<img src="img/exceptions/logging_screenshot02.jpg">
 -
-<img src="img/exceptions/logging_screenshot03.jpg'>
+<img src="img/exceptions/logging_screenshot03.jpg">
 -
-<img src="img/exceptions/logging_screenshot04.jpg'>
+<img src="img/exceptions/logging_screenshot04.jpg">
 -
-<img src="img/exceptions/logging_screenshot05.jpg'>
+<img src="img/exceptions/logging_screenshot05.jpg">
