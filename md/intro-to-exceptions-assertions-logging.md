@@ -535,6 +535,4 @@ public class LogDemo {
 -
 <img src="/tcuk-slides-light/img/exceptions/logging_screenshot03.png">
 -
-<img src="/tcuk-slides-light/img/exceptions/logging_screenshot04.png">
--
 <img src="/tcuk-slides-light/img/exceptions/logging_screenshot05.png">
