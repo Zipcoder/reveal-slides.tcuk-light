@@ -525,4 +525,16 @@ public class LogDemo {
 }
 ```
 -
-<img src = 'https://i.pinimg.com/originals/f7/1e/7c/f71e7c464445db9da347def01636a281.jpg'>
+<img src="img/bunnies/f71e7c464445db9da347def01636a281.jpg'>
+-
+##Logging with IntelliJ
+-
+<img src="img/exceptions/logging_screenshot01.jpg'>
+-
+<img src="img/exceptions/logging_screenshot02.jpg'>
+-
+<img src="img/exceptions/logging_screenshot03.jpg'>
+-
+<img src="img/exceptions/logging_screenshot04.jpg'>
+-
+<img src="img/exceptions/logging_screenshot05.jpg'>
