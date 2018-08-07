@@ -457,6 +457,19 @@ class BookExample {
 <p class="fragment fade-up">* `java -ea MyProject` enables for entire project</p>
 <p class="fragment fade-up">* `java -ea:MyClass -ea:com.zipcodewilmington.MyProject` enables for `MyClass`</p>
 
+
+-
+##Logging with IntelliJ
+-
+<img src="/tcuk-slides-light/img/exceptions/logging_screenshot01.png">
+-
+<img src="/tcuk-slides-light/img/exceptions/logging_screenshot02.png">
+-
+<img src="/tcuk-slides-light/img/exceptions/logging_screenshot03.png">
+-
+<img src="/tcuk-slides-light/img/exceptions/logging_screenshot05.png">
+
+
 -
 ###When To Use
 <p class="fragment fade-up">* Assertion failures are intended to be fatal, unrecoverable errors</p>
@@ -531,14 +544,4 @@ public class LogDemo {
 ```
 -
 <img src="/tcuk-slides-light/img/bunnies/f71e7c464445db9da347def01636a281.jpg">
--
-##Logging with IntelliJ
--
-<img src="/tcuk-slides-light/img/exceptions/logging_screenshot01.png">
--
-<img src="/tcuk-slides-light/img/exceptions/logging_screenshot02.png">
--
-<img src="/tcuk-slides-light/img/exceptions/logging_screenshot03.png">
--
-<img src="/tcuk-slides-light/img/exceptions/logging_screenshot05.png">
 
