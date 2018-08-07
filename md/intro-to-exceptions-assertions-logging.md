@@ -395,6 +395,11 @@ public class FilePrinterTest {
 
 
 -
+<img src="/tcuk-slides-light/img/exceptions/finally.JPG">
+
+
+
+-
 ###Decoupling `finally` clause from `try/catch` clauses
 ```Java
 class BookExample {
@@ -439,8 +444,8 @@ class BookExample {
 -
 ###Assertions
 <p class="fragment fade-up">* Assertions are commonly used idiom of defensive programming.</p>
-<p class="fragment fade-up">* Java has a keyword `assert`, which takes two forms:
-	1. `assert condition;`
+<p class="fragment fade-up">* Java has a keyword `assert`, which takes two forms:<br>
+	1. `assert condition;`<br>
 	2. `assert condition : expression;`</p>
 <p class="fragment fade-up">* `assert` evaluates a condition, then throws an `AssertionError` if it is false. The second argument _expression_ is a message String.</p>
 
@@ -536,3 +541,4 @@ public class LogDemo {
 <img src="/tcuk-slides-light/img/exceptions/logging_screenshot03.png">
 -
 <img src="/tcuk-slides-light/img/exceptions/logging_screenshot05.png">
+
