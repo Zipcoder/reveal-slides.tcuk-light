@@ -459,7 +459,7 @@ class BookExample {
 
 
 -
-##Logging with IntelliJ
+##Toggling Assert Statements with IntelliJ
 -
 <img src="/tcuk-slides-light/img/exceptions/logging_screenshot01.png">
 -
@@ -524,6 +524,11 @@ class BookExample {
 * `FINE`
 * `FINER`
 * `FINEST` lowest
+
+-
+##Setting Log Options with IntelliJ
+
+<a href="https://www.jetbrains.com/help/idea/setting-log-options.html" target="_blank">https://www.jetbrains.com/help/idea/setting-log-options.html</a>
 
 -
 ###Syntax
