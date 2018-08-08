@@ -127,3 +127,8 @@ Slightly more features than Iterators:
 
 - [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html)
 - [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
+
+
+
+-
+<img src="/tcuk-slides-light/img/bunnies/baby-bunnies.jpg">
