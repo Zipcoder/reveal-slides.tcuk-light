@@ -125,36 +125,36 @@ Slightly more features than Iterators:
 -
 ##Example: Empty Views
 ```
-        List<String> clearList = Collections.emptyList();
-        Set<String> clearSet = Collections.emptySet();
-        Map<String, Integer> clearMap = Collections.emptyMap();
+    List<String> clearList = Collections.emptyList();
+    Set<String> clearSet = Collections.emptySet();
+    Map<String, Integer> clearMap = Collections.emptyMap();
 ```
 -
 ##Example: Views of Single Objects
 ```
 
-        //View of Single Object
-        List<String> oneList = Collections.singletonList("elem");
-        Set<String> oneSet = Collections.singleton("elem");
-        Map<String, Integer> oneMap = Collections.singletonMap("one", 1);
-        
-        //Single Object 9 times:
-        List<String> nTimesList = Collections.nCopies(9, "elem");
+    //View of Single Object
+    List<String> oneList = Collections.singletonList("elem");
+    Set<String> oneSet = Collections.singleton("elem");
+    Map<String, Integer> oneMap = Collections.singletonMap("one", 1);
+    
+    //Single Object 9 times:
+    List<String> nTimesList = Collections.nCopies(9, "elem");
+```
 -
 ##Example: View of an Array
 
 ```
-        String[] monthArray = new String[12];
-        List<String> monthList = Arrays.asList(monthArray);
-        //another way to build
-        List<String> months = Arrays.asList("July", "August");
+    String[] monthArray = new String[12];
+    List<String> monthList = Arrays.asList(monthArray);
+    //another way to build
+    List<String> months = Arrays.asList("July", "August");
         
 ```
 -
 ##Example: View of portion of a List
 ```
-        //List<String> nextThree = nTimesList.subList(5, 8);
-        //System.out.println(nextThree);
+    List<String> nextThree = nTimesList.subList(5, 8);
 
 ```
 
