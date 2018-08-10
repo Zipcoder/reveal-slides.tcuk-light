@@ -112,6 +112,16 @@ Slightly more features than Iterators:
 - Can iterate backward
 - Provides index for previous and next elements
 
+-
+
+##Example: ListIterator
+```
+        final Iterator<Dog> dogIterator = dogs.iterator();
+        while (dogIterator.hasNext()){
+            Dog currentDog = dogIterator.next();
+        }
+
+```
 
 -
 -
@@ -128,6 +138,7 @@ Slightly more features than Iterators:
     List<String> clearList = Collections.emptyList();
     Set<String> clearSet = Collections.emptySet();
     Map<String, Integer> clearMap = Collections.emptyMap();
+    
 ```
 -
 ##Example: Views of Single Objects
@@ -140,6 +151,7 @@ Slightly more features than Iterators:
     
     //Single Object 9 times:
     List<String> nTimesList = Collections.nCopies(9, "elem");
+    
 ```
 -
 ##Example: View of an Array
