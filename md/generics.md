@@ -50,11 +50,14 @@ class Pair<T,U> {
   ...
 }
 ```
-Also, you can use the diamond operator to make code more readable.
+<p class="fragment fade-up">
+ Also, you can use the diamond operator to make code more readable.
+
 ```Java
 Container<String> stringContainer = new Container<String>();
 Container<String> stringContainer = new Container<>();
 ```
+</p>
 -
 -
 ### We can do methods, too.
@@ -63,10 +66,12 @@ class MiddleHelper {
   public static <T> T getMiddle(T... a) { return a[a.length /2 ]; }
 }
 ```
-Note, if you don't specify the type when you call the method, you can get into scenarios where the compiler doesn't understand what you're trying to do.
+<p class="fragment fade-up">
+''Note:'' if you don't specify the type when you call the method, you can get into scenarios where the compiler doesn't understand what you're trying to do.
 ```Java
 double middle = ArrayAlg.getMiddle(3.14, 1729, 0)
 ```
+<p>
 -
 -
 ## Bounds
@@ -74,8 +79,8 @@ double middle = ArrayAlg.getMiddle(3.14, 1729, 0)
 public static <T extends Comparable> T min(T[] a){...}
 ```
 
-When `extending` T must always be a subtype of its bounding type.<br>
-REMEMBER: if B extends A, that does NOT mean that T&lt;B> extends T&lt;A>
+* When `extending` T must always be a subtype of its bounding type.<br>
+* ''REMEMBER:'' if B extends A, that does NOT mean that T&lt;B> extends T&lt;A>
 -
 -
 ## Wildcards
