@@ -2,10 +2,10 @@
 -
 -
 # Background
-* Introduced in SE5 to make it safer and easier than casting from Objects everywhere.
-* You've used them already:
-  * Lists
-  * Maps
+* <span class="fragment fade-up">Introduced in SE5 to make it safer and easier than casting from Objects everywhere.</span>
+* <span class="fragment fade-up">You've used them already:</span>
+  * <span class="fragment fade-up">Lists</span>
+  * <span class="fragment fade-up">Maps</span>
 -
 -
 ## Container without Generics
