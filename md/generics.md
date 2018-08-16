@@ -258,5 +258,5 @@ It's as if they've functionally been erased, but there is still a record.
 
 -
 -
-<img src="img/bunnies/cute-rabbit-2.jpg" width="80%" style="0 10%" >
+<img src="img/bunnies/cute-rabbit-2.jpg" width="80%" style="margin:0 10%" >
 
