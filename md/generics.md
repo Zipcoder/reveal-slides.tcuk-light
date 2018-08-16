@@ -221,13 +221,13 @@ class MyNode extends Node {
 -
 ## What CAN'T we do with Generics (continued)
 * No Arrays of parameterized types
-  * Remember, the compiler will make these into Objects (or bounding type).  You pretty much always don't want this.
-  * You can get around this with some wildcard magic.  But, like, don't.
+  * Remember, the compiler will make these into **Objects** (or bounding type).  <br>You pretty much never want this.
+  * You can get around this with some wildcard magic.  (Strongly discouraged)
   * You can, however, use `@SafeVarargs` for varargs.
 -
 -
 ## What CAN'T we do with Generics (continued)
-* No instantiating type variables
+* No instantiating type variables:
   * `new T()` doesn't work
   * Pass in a `Class<T>` and call `class.newInstance()`
   * Use a function with a constructor expression
