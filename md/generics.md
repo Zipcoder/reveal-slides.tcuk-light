@@ -50,14 +50,14 @@ class Pair<T,U> {
   ...
 }
 ```
-<p class="fragment fade-up">
+
  Also, you can use the diamond operator to make code more readable.
 
 ```Java
 Container<String> stringContainer = new Container<String>();
 Container<String> stringContainer = new Container<>();
 ```
-</p>
+
 -
 -
 ### We can do methods, too.
@@ -66,12 +66,13 @@ class MiddleHelper {
   public static <T> T getMiddle(T... a) { return a[a.length /2 ]; }
 }
 ```
-<p class="fragment fade-up">
-''Note:'' if you don't specify the type when you call the method, you can get into scenarios where the compiler doesn't understand what you're trying to do.
+
+**Note**: if you don't specify the type when you call the method, you can get into scenarios where the compiler doesn't understand what you're trying to do.
+
 ```Java
 double middle = ArrayAlg.getMiddle(3.14, 1729, 0)
 ```
-<p>
+
 -
 -
 ## Bounds
@@ -79,13 +80,13 @@ double middle = ArrayAlg.getMiddle(3.14, 1729, 0)
 public static <T extends Comparable> T min(T[] a){...}
 ```
 
-* When `extending` T must always be a subtype of its bounding type.<br>
-* ''REMEMBER:'' if B extends A, that does NOT mean that T&lt;B> extends T&lt;A>
+* When `extending` T must always be a subtype of its bounding type.
+* **REMEMBER**: if B extends A, that does NOT mean that T&lt;B> extends T&lt;A>
 -
 -
 ## Wildcards
 
-Unbounded Wildcards are used when you don't care about the type.
+**Unbounded Wildcards** are used when you **don't** care about the type.
 
 ```Java
 public static boolean isEven(List<?> list) {
@@ -93,18 +94,24 @@ public static boolean isEven(List<?> list) {
 }
 ```
 
-Bounded Wildcards, however, let you care somewhat about the type
-`? extends Something` is typically when you are reading from something generic.  Means any subclass of `Something`.
-`? super Something` is typically when you are writing to something generic.  Means any superclass of `Something`.
+**Bounded Wildcards**, however, let you care somewhat about the type:
+
+<span class="fragment fade-up">`? extends Something` is typically when you are reading from something generic.  Means any subclass of `Something`.</span>
+
+<span class="fragment fade-up">`? super Something` is typically when you are writing to something generic.  Means any superclass of `Something`.</span>
 
 -
 -
 ## Wildcards (continued)
-You can also capture wildcards by passing the variable to another function that doesn't have a wildcard.  Though, this is rarely used (or allowed), since the compiler needs to be certain that the wildcard represents a single type.
+You can also capture wildcards by passing the variable to another function that doesn't have a wildcard.
+
+However, this is rarely used (or allowed), since the compiler needs to be certain that the wildcard represents a single type.
 -
 -
 ## Type Erasure
-At compile time for generics, the type parameters are erased and replaced with their upper bounds.  And, if there isn't one, then it replaces them with Object.
+At compile time for generics, the **type parameters** are **erased** and replaced with their **upper bounds**.
+
+If there isn't one, then it replaces them with **Object**:
 ```Java
 class Box<T> {
   public T contents;
@@ -120,7 +127,8 @@ class Box {
 ```
 -
 -
-and
+
+Likewise,
 ```Java
 class Box<T extends Comparable> {
   public T contents;
