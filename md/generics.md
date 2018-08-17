@@ -145,6 +145,11 @@ class Box{
 Also, if `Box` extended multiple things, the compiler would merely make everything the first type, and then cast to the latter ones when necessary.
 -
 -
+## Part 2
+-
+-
+
+
 ## Polymorphism and Bridge Methods
 Java synthesizes bridge methods for us so we can have generics and polymorphism.
 -
