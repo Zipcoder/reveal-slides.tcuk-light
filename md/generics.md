@@ -145,7 +145,7 @@ class Box{
 Also, if `Box` extended multiple things, the compiler would merely make everything the first type, and then cast to the latter ones when necessary.
 -
 -
-## Cenerics:<br> Part 2
+## Generics:<br> Part 2
 -
 -
 
