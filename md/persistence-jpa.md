@@ -140,9 +140,9 @@ Customer findByEmailAddress(EmailAddress email);
 ```
 
 ```Java
-@Query("update Student s set s.status = :status where s.name = :name")
-int updateStudentSetStatusForName(@Param("status") Integer status, 
-  @Param("name") String name);
+@Query("SELECT c FROM Customer c WHERE c.status = :status and c.name = :name")
+Customer findCustomerByCustomerStatusAndCustomerName(@Param("status") Integer customerStatus, 
+  @Param("name") String customerName);
 ```
 
 -
