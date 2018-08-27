@@ -132,15 +132,16 @@ Specify custom queries
 - Serves as a hint for the Spring-generated implementation
 
 -
-Custom query example
+Custom query examples:
 
 ```Java
-@Query("select c from Customer c where c.emailAddress = ?1")
+@Query("SELECT c FROM Customer c WHERE c.emailAddress = ?1")
 Customer findByEmailAddress(EmailAddress email);
 ```
 
+
 ```Java
-@Query("SELECT c FROM Customer c WHERE c.status = :status and c.name = :name")
+@Query("SELECT c FROM Customer c WHERE c.status = :status AND c.name = :name")
 Customer findCustomerByCustomerStatusAndCustomerName(@Param("status") Integer customerStatus, 
   @Param("name") String customerName);
 ```
