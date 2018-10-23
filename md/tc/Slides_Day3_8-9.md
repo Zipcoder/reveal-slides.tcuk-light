@@ -48,6 +48,7 @@ for (variable : collection) statement
 ```
 for (int element : a) System.out.println(element);
 ```
+-
 
 ###Array Initializers and Anonymous Arrays
 
