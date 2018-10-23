@@ -75,6 +75,8 @@ int[] anonymous = { 17, 19, 23, 29, 31, 37 };
 smallPrimes = anonymous;
 ```
 
+-
+
 ###Array Copying
 
 You can copy one array variable into another, but then both variables refer to the same array:
@@ -86,7 +88,7 @@ luckyNumbers[5] = 12; // now smallPrimes[5] is also 12
 
 -
 
-Figure 3.14 shows the result. If you actually want to copy all values of one array into a new array, you use the copyOf method in the Arrays class
+If you actually want to copy all values of one array into a new array, you use the copyOf method in the Arrays class
 
 ```
 int[] copiedLuckyNumbers = Arrays.copyOf(luckyNumbers, luckyNumbers.length);
